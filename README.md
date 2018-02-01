@@ -6,18 +6,21 @@ Ferramenta cli para realizar pesquisa de pacotes no npmjs.
 
 Para executar o programa é necessário ter o node e o npm instalados.
 
+
 ### Instalando 
 
 Para instalar o cli 
 
-```npm install -g https://github.com/AdsonVieira/npm-find.git
+```
+npm install -g https://github.com/AdsonVieira/npm-find.git
 ```
 
 ### Buscando por pacotes 
 
 Para pesquisar por pacotes execute
 
-```npm-find nome_do_pacote
+```
+npm-find nome_do_pacote
 ```
 
 ## License
