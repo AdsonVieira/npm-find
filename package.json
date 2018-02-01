@@ -1,5 +1,5 @@
 {
-  "name": "yt-cli",
+  "name": "npm-find",
   "version": "1.0.0",
   "description": "Ferramenta cli para pesquisar pacotes no npm",
   "main": "index.js",

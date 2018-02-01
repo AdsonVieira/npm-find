@@ -6,8 +6,6 @@ var querystring = require('querystring')
 var arguments = process.argv.splice(2, process.argv.length -1).join(' ')
 var url_request = 'https://www.npmjs.com/-/search?text='+arguments;
 
-console.log(url_request);
-
 https.get(url_request, function(res){
     var data = ''
 
