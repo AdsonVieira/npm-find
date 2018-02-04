@@ -1,14 +1,30 @@
 {
   "name": "npm-find",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Ferramenta cli para pesquisar pacotes no npm",
-  "main": "index.js",
+  "main": "npm-find.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "preferGlobal": true,
   "bin": {
-    "npm-find": "./bin/index.js"
+    "npm-find": "npm-find.js"
+  },"keywords": [
+    "npm",
+    "find",
+    "package",
+    "cli find package"
+  ],
+  "author": "Adson Vieira adsovieira@live.com",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.7.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdsonVieira/npm-find.git"
   }
 }
